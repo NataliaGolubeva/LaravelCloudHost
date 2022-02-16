@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-entrypoint: 'gcloud'
+entrypoint: 'bash'
 timeout: 240s
 args:
   - '-c'
